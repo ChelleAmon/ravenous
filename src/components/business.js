@@ -1,5 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 const business = {
     imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',

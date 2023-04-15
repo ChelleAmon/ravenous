@@ -11,27 +11,28 @@ const business = {
     reviewCount: 90
 };
 
-function Business (){
+function Business(){
     return (
         <div>
             <img />
             <section>
                 <h3 className="b_name" id="name">
-                    Name
+                    {business.name}
                 </h3>
                 <span id="address">
-                    <p id="address1"></p>
-                    <p id="city"></p>
-                    <p id="state"></p>
-                    <p id="zipcode"></p>
+                    <p id="address1">{business.address}</p>
+                    <p id="city">{business.city}</p>
+                    <p id="state">{business.state}</p>
+                    <p id="zipcode">{business.zipcode}</p>
                 </span>
                 <span>
-                    <p id="category"></p>
-                    <p id="rating"></p>
-                    <p id="rating"></p>
-                    <p id="review"></p>
+                    <p id="category">{business.category}</p>
+                    <p id="rating">{business.rating}</p>
+                    <p id="review_count">{business.reviewCount}</p>
                 </span>
             </section>
         </div>
     )
-}
+};
+
+export default Business;

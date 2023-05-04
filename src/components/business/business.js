@@ -14,7 +14,7 @@ const business = {
 function Business(){
     return (
         <div>
-            <img />
+            <img src={business.imageSrc}/>
             <section>
                 <h3 className="b_name" id="name">
                     {business.name}

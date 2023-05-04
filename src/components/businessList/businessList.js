@@ -1,4 +1,4 @@
-import Business from "./business/business";
+import Business from "../business/business";
 
 // const lists = [...Array(3)].map(() => {
 //     <li>

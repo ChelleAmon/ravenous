@@ -8,16 +8,15 @@ import Business from "../business/business";
 function BusinessList(){
     return(
         <ul>
-    <li>
-        <Business />
-    </li>
-    <li>
-        <Business />
-    </li>
-    <li>
-        <Business />
-    </li>
-    
+            <li>
+                <Business />
+            </li>
+            <li>
+                <Business />
+            </li>
+            <li>
+                <Business />
+            </li>
         </ul>
     );
 };

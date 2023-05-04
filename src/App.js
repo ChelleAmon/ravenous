@@ -10,9 +10,13 @@ function App() {
   return (
     <div className="App">
       <SearchBar />
-      <BusinessList />
+      <div>
+      { Businesses.map(business => 
+          <BusinessList list= {business} /> 
+        )}
+      </div>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,5 +1,5 @@
 
-const Businesses = [
+export const Businesses = [
     {
         imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
         name: 'MarginOtto Pizzeria',
@@ -36,4 +36,3 @@ const Businesses = [
 
 ];
 
-export default Businesses ;

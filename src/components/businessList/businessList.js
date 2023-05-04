@@ -5,17 +5,11 @@ import Business from "../business/business";
 //         <Business />
 //     </li>
 // })
-function BusinessList(){
+function BusinessList(props){
     return(
         <ul>
-            <li>
-                <Business />
-            </li>
-            <li>
-                <Business />
-            </li>
-            <li>
-                <Business />
+            <li >
+                <Business business={props.list} />
             </li>
         </ul>
     );

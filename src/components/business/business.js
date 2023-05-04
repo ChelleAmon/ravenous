@@ -1,21 +1,22 @@
-function Business(){
+function Business(props){
     return (
         <div>
-            <img src={business.imageSrc}/>
+            {/* {console.log(props)} good to log props to see what object property we are trying to access */}
+            <img src={props.business.imageSrc}/>
             <section>
                 <h3 className="b_name" id="name">
-                    {business.name}
+                    {props.business.name}
                 </h3>
                 <span id="address">
-                    <p id="address1">{business.address}</p>
-                    <p id="city">{business.city}</p>
-                    <p id="state">{business.state}</p>
-                    <p id="zipcode">{business.zipcode}</p>
+                    <p id="address1">{props.business.address}</p>
+                    <p id="city">{props.business.city}</p>
+                    <p id="state">{props.business.state}</p>
+                    <p id="zipcode">{props.business.zipcode}</p>
                 </span>
                 <span>
-                    <p id="category">{business.category}</p>
-                    <p id="rating">{business.rating}</p>
-                    <p id="review_count">{business.reviewCount}</p>
+                    <p id="category">{props.business.category}</p>
+                    <p id="rating">{props.business.rating}</p>
+                    <p id="review_count">{props.business.reviewCount}</p>
                 </span>
             </section>
         </div>
